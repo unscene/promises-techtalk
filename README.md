@@ -59,6 +59,9 @@ Let's make it betterer?. See [Ex.3](async.js)
 
   1. Exception handling but poor.
   2. Still have to manage some sort of callback.
+  3. ...and probably still brittle.
+  
+And just before we move on the way to handle exceptions in all of the above cases would be to use [domains](http://nodejs.org/docs/latest/api/domain.html).  Not my favorite but it works.
 
 ####Promises
 
