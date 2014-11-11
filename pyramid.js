@@ -1,6 +1,7 @@
 var request = require('request');
 
 console.log('ex1. pyramid running');
+
 request({ url: 'http://reqr.es/api/users', json:true }, function(err, results, body) {
   if(err) {
     console.log(err);
