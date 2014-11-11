@@ -2,13 +2,10 @@
   "name": "promises-techtalk",
   "version": "0.0.0",
   "description": "ERROR: No README.md file found!",
-  "scripts": {
-  	"start": "node pyramid.js; node cps.js; node async.js; node promises.js"
-  },
   "dependencies": {
     "bluebird": "~2.3.11",
     "async": "~0.9.0",
-    "request": "~2.47.0",
+    "request": "~2.47.0"
   },
   "devDependencies": {},
   "scripts": {

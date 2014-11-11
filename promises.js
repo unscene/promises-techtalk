@@ -2,7 +2,7 @@ var Promise = require('bluebird');
 Promise.longStackTraces();
 var request = Promise.promisifyAll(require('request'));
 
-console.log('ex4. promises running');
+console.log('ex5. promises running');
 
 request.getAsync({ url:'http://reqr.es/api/users', json: true })
   .spread(function(_, body) {
