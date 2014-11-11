@@ -63,9 +63,24 @@ Let's make it betterer?. See [Ex.3](async.js)
 
 And just before we move on the way to handle exceptions in all of the above cases would be to use [domains](http://nodejs.org/docs/latest/api/domain.html).  Not my favorite but it works.
 
+####Generatos
+
+Even much better?. See [Ex.5](promises.js)
+
+**Pros**
+
+  1. We can stop it from going right.
+  2. It looks synchronous!
+  3. Way less verbose.
+
+**Cons**
+
+  1. Requires some mental overhead.
+
+
 ####Promises
 
-Let's make it most best. See [Ex.4](promises.js)
+Let's make it most best. See [Ex.5](promises.js)
 
 **Pros**
 
