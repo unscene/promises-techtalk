@@ -57,7 +57,7 @@ Let's make it betterer?. See [Ex.3](async.js)
 
 **Cons**
 
-  1. Still no exception handling.
+  1. Exception handling but poor.
   2. Still have to manage some sort of callback.
 
 ####Promises
